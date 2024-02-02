@@ -6,4 +6,4 @@ if [[ -z "$target" ]]; then
     exit 1
 fi
 
-java -cp ${target}:target/dependency/* cgtester.CGTester "$@"
+java -cp ${target}:target/dependency/* com.codingame.gameengine.runner.CGTester "$@"
